@@ -26,7 +26,7 @@ client = Client(binanceApi, binanceSecret)
 
 def get_data_from_google_sheets(name):
     try:
-        google_sheets_url = "https://docs.google.com/spreadsheets/d/1-YpvtUu_0HixzbNE3YgT4BeXk4hFTW2ZQ7XnHL7htmo/export?format=csv&range=A:B"
+        google_sheets_url = "" # Google Sheets URL (public)
 
         # Google Sheets'ten veriyi çek
         df = pd.read_csv(google_sheets_url)
